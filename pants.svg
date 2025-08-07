@@ -1,0 +1,18 @@
+
+        <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="pantsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#8d6e63;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#4e342e;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <rect width="200" height="200" fill="#efebe9"/>
+          <rect x="70" y="50" width="60" height="20" rx="3" fill="url(#pantsGrad)"/>
+          <rect x="75" y="70" width="25" height="70" fill="url(#pantsGrad)" stroke="#3e2723" stroke-width="1"/>
+          <rect x="100" y="70" width="25" height="70" fill="url(#pantsGrad)" stroke="#3e2723" stroke-width="1"/>
+          <rect x="80" y="80" width="15" height="8" rx="2" fill="#616161" opacity="0.7"/>
+          <rect x="105" y="80" width="15" height="8" rx="2" fill="#616161" opacity="0.7"/>
+          <circle cx="85" cy="60" r="1.5" fill="#ffc107"/>
+          <line x1="90" y1="57" x2="110" y2="57" stroke="#3e2723" stroke-width="1"/>
+          <text x="100" y="170" font-family="Arial" font-size="12" text-anchor="middle" fill="#5d4037">Trail Blaze</text>
+        </svg>

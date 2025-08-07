@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "NODE_TLS_REJECT_UNAUTHORIZED=0 node sample.js",
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 node sample.js",
+    "generate-images": "node generate-images.js",
+    "build": "npm run generate-images && echo '🎉 Site web prêt ! Ouvrez final_page.html dans votre navigateur.'"
+  },
+  "dependencies": {
+    "@azure-rest/ai-inference": "latest",
+    "@azure/core-auth": "latest",
+    "@azure/core-sse": "latest",
+    "dotenv": "^17.2.1"
+  }
+}

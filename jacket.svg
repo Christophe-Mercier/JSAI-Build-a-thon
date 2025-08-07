@@ -1,0 +1,20 @@
+
+        <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="jacketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#1565c0;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <rect width="200" height="200" fill="#e3f2fd"/>
+          <path d="M70,60 Q70,50 100,50 Q130,50 130,60 L130,130 L70,130 Z" fill="url(#jacketGrad)" stroke="#0d47a1" stroke-width="2"/>
+          <rect x="85" y="70" width="30" height="50" fill="#1976d2" opacity="0.7"/>
+          <circle cx="110" cy="80" r="2" fill="#ffffff"/>
+          <circle cx="110" cy="95" r="2" fill="#ffffff"/>
+          <circle cx="110" cy="110" r="2" fill="#ffffff"/>
+          <path d="M60,70 Q55,65 60,60 L70,65" fill="url(#jacketGrad)" stroke="#0d47a1" stroke-width="1"/>
+          <path d="M140,70 Q145,65 140,60 L130,65" fill="url(#jacketGrad)" stroke="#0d47a1" stroke-width="1"/>
+          <rect x="75" y="125" width="15" height="8" rx="2" fill="#424242"/>
+          <rect x="110" y="125" width="15" height="8" rx="2" fill="#424242"/>
+          <text x="100" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#1565c0">Summit Trek</text>
+        </svg>
